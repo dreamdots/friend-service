@@ -1,0 +1,11 @@
+common:
+  port: 8080
+  scheme: http
+  host: localhost
+
+paths:
+  remove_friend_path: /notification/removefriend
+  add_friend_path: /notification/addfriend
+  delete_page_path: /notification/deletepage
+  private_page_path: /notification/privatepage
+  wrong_token_path: /notification/wrongtoken

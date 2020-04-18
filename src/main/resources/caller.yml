@@ -1,0 +1,4 @@
+scheduled:
+  common_friend_cron: 0/30 * * * * ? *
+  common_update_cron: 15 * */1 * * ? *
+permanent:

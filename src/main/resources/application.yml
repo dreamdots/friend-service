@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: friends-service
+  main:
+    banner-mode: off
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      database: friends_service
+      host: localhost
+      port: 27017
+      repositories:
+        type: reactive
+
+
+logging:
+  level:
+    com:
+      dreamfoxick:
+        friendservice: info
+    org:
+      springframework: warn
+      mongodb: warn
+      quartz: warn
+
+
+server:
+  port: 8080
+  host: localhost
+
+
